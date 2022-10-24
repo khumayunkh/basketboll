@@ -1,6 +1,8 @@
+@import './.././../index.sass'
+    
 .header_container
     position: relative
-    height: 810px
+    height: 81rem
     width: 100%
 
 .header_backround
@@ -35,26 +37,26 @@
                 font-family: 'Montserrat'
                 font-style: normal
                 font-weight: 700
-                font-size: 46px
-                line-height: 56px 
+                font-size: 4.6rem
+                line-height: 5.6rem
                 letter-spacing: -0.05em
                 padding-right: 5%
-                border-right: 7px solid var(--text-white)    
+                border-right: .7rem solid var(--text-white)    
                 transition: all .2s
                 &:hover
                     color: var(--orange)
-                    border-right: 7px solid var(--orange)
+                    border-right: .7rem solid var(--orange)
         &__name
             font-family: 'Montserrat'
             font-style: normal
             font-weight: 700
-            font-size: 34px
-            line-height: 41px
+            font-size: 3.4rem
+            line-height: 4.1rem
             letter-spacing: -0.05em     
             transition: all .2s
             &:hover
                 color: var(--orange)   
-                border-bottom: 7px solid var(--orange)
+                border-bottom: .7rem solid var(--orange)
     &_info
         align-self: center
         display: flex
@@ -66,17 +68,13 @@
             align-self: start
             align-items: center
             &_triangle-left
-                width: 0
-                height: 0
-                border-top: 20px solid transparent
-                border-left: 40px solid var(--orange)
-                border-bottom: 20px solid transparent
+                @include style-triangle
             &_name
                 font-family: 'Montserrat'
                 font-style: normal
                 font-weight: 700
-                font-size: 45px
-                line-height: 55px
+                font-size: 4.5rem
+                line-height: 5.5rem
                 color: var(--orange)
         &_sub
             display: flex
@@ -87,20 +85,20 @@
                 font-family: 'Montserrat'
                 font-style: normal
                 font-weight: 900
-                font-size: 58px
-                line-height: 71px
+                font-size: 5.8rem
+                line-height: 7.1rem
                 letter-spacing: -0.02em
                 color: #E6E5E5    
             &_btn
-                width: 157px
-                height: 63px
+                width: 15.7rem
+                height: 6.3rem
                 background: var(--orange)
-                border-radius: 5px     
+                border-radius: .5rem     
                 font-weight: 700
                 border: none
-                font-size: 25px
-                line-height: 30px
+                font-size: 2.5rem
+                line-height: 3rem
                 text-align: center
-                color: #000000  
+                color: var(--black) 
 
 

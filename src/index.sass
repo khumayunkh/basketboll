@@ -16,12 +16,16 @@ body
 
 :root 
    --text-white: #E5E5E5
-   --color-pri: #0a083a
-   --grey: #6c6b6b
-   --pink: #ff3c78
-   --green: #02be83
-   --blue: #315bff
    --orange: #CC6200
+   --black: #000000
+
+@mixin style-triangle()
+    width: 0
+    height: 0
+    border-top: 2rem solid transparent
+    border-left: 4rem solid var(--orange)
+    border-bottom: 2rem solid transparent
+
  
 
 

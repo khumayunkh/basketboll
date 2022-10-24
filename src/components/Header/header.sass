@@ -1,0 +1,52 @@
+.header_container
+    position: relative
+
+.header_backround
+    width: 100%    
+    position: absolute
+    z-index: 1
+
+.header_menu
+    padding: 2%
+    position: relative
+    z-index: 2 
+    &__navbar
+        color: var(--blue)
+        display: flex
+        align-items: center
+        justify-content: space-between
+        width: 73%
+        color: var(--text-white)
+        text-align: center
+        cursor: pointer 
+        &__logo
+            display: flex
+            justify-content: space-between
+            align-items: center    
+            width: 25%
+            &__title
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 700
+                font-size: 46px
+                line-height: 56px 
+                letter-spacing: -0.05em
+                padding-right: 5%
+                border-right: 7px solid var(--text-white)    
+                transition: all .2s
+                &:hover
+                    color: var(--orange)
+                    border-right: 7px solid var(--orange)
+        &__name
+            font-family: 'Montserrat'
+            font-style: normal
+            font-weight: 700
+            font-size: 34px
+            line-height: 41px
+            letter-spacing: -0.05em     
+            transition: all .2s
+            &:hover
+                color: var(--orange)   
+                border-bottom: 7px solid var(--orange)
+
+

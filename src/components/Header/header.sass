@@ -1,5 +1,7 @@
 .header_container
     position: relative
+    height: 810px
+    width: 100%
 
 .header_backround
     width: 100%    
@@ -7,9 +9,14 @@
     z-index: 1
 
 .header_menu
-    padding: 2%
+    padding: 2% 0% 7% 2%
     position: relative
     z-index: 2 
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 100%
+    width: 100%
     &__navbar
         color: var(--blue)
         display: flex
@@ -48,5 +55,52 @@
             &:hover
                 color: var(--orange)   
                 border-bottom: 7px solid var(--orange)
+    &_info
+        align-self: center
+        display: flex
+        flex-direction: column
+        align-items: center
+        width: 80%
+        &_title
+            display: flex
+            align-self: start
+            align-items: center
+            &_triangle-left
+                width: 0
+                height: 0
+                border-top: 20px solid transparent
+                border-left: 40px solid var(--orange)
+                border-bottom: 20px solid transparent
+            &_name
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 700
+                font-size: 45px
+                line-height: 55px
+                color: var(--orange)
+        &_sub
+            display: flex
+            align-self: start
+            justify-content: space-between
+            width: 80%
+            h3 
+                font-family: 'Montserrat'
+                font-style: normal
+                font-weight: 900
+                font-size: 58px
+                line-height: 71px
+                letter-spacing: -0.02em
+                color: #E6E5E5    
+            &_btn
+                width: 157px
+                height: 63px
+                background: var(--orange)
+                border-radius: 5px     
+                font-weight: 700
+                border: none
+                font-size: 25px
+                line-height: 30px
+                text-align: center
+                color: #000000  
 
 

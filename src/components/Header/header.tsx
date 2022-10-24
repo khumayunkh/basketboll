@@ -19,6 +19,16 @@ function Header(){
                     <h2 className="header_menu__navbar__name">MOMČAD</h2>
                     <h2 className="header_menu__navbar__name">KONTAKT</h2>
                 </div>
+                <div className="header_menu_info">
+                    <div className="header_menu_info_title">
+                        <div className="header_menu_info_title_triangle-left"></div>
+                        <h2 className="header_menu_info_title_name">KLUB</h2>
+                    </div>
+                    <div className="header_menu_info_sub">
+                        <h3>VELIKA POBJEDA U SPLITU</h3>
+                        <button className="header_menu_info_sub_btn">POGLEDAJ</button>
+                    </div>
+                </div>
             </div>    
         </div>
         </>

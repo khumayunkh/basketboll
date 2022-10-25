@@ -21,14 +21,13 @@ function Header(){
                     <h2 className="header_menu__navbar__name">VIJESTI</h2>
                     <Nav>
                         <NavDropdown
-                            id="nav-dropdown-dark-example"
+                            className="header_menu__navbar__name"
                             title="MOMČAD"
-                            menuVariant="dark"
                         >
-                        <NavDropdown.Item href="#action/3.1">igrači</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.2">stožer</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.3">utakmice</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.4">tablica</NavDropdown.Item>
+                        <NavDropdown.Item className="header_menu__navbar__dropdown" href="#action/3.1">igrači</NavDropdown.Item>
+                        <NavDropdown.Item className="header_menu__navbar__dropdown" href="#action/3.2">stožer</NavDropdown.Item>
+                        <NavDropdown.Item className="header_menu__navbar__dropdown" href="#action/3.3">utakmice</NavDropdown.Item>
+                        <NavDropdown.Item className="header_menu__navbar__dropdown" href="#action/3.4">tablica</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
                     <h2 className="header_menu__navbar__name">KONTAKT</h2>

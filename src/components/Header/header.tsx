@@ -2,7 +2,6 @@ import React from "react";
 import  './header.sass'
 import background from './../img/background.png'
 import {Nav} from 'react-bootstrap';
-import {Navbar} from 'react-bootstrap';
 import {NavDropdown} from 'react-bootstrap';
 import logo from './../img/logo.png'
 
@@ -10,7 +9,7 @@ function Header(){
     return(
         <>
         <div className="header_container">
-            <img className="header_backround" src={background}/>
+            {/* <img className="header_backround" src={background}/> */}
             <div className="header_menu">
                 <div className="header_menu__navbar">
                     <div className="header_menu__navbar__logo">

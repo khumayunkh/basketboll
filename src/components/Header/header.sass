@@ -4,11 +4,16 @@
     position: relative
     height: 81rem
     width: 100%
+    background-blend-mode: darken, luminosity
+    background: var(--header-background) url('./../img/background.png') center / cover no-repeat
 
-.header_backround
-    width: 100%    
-    position: absolute
-    z-index: 1
+// .header_backround
+//     width: 100%    
+//     position: absolute
+//     z-index: 1
+//     height: 100%
+//     background-blend-mode: darken
+//     background-color: grey 
 
 .header_menu
     padding: 2% 0% 7% 2%
@@ -54,6 +59,7 @@
                 color: var(--orange)   
                 border-bottom: .7rem solid var(--orange)
         &__dropdown
+            text-align: center
             font-weight: 700
             font-size: 3.4rem
             line-height: 4.1rem

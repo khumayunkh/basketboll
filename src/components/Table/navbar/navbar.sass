@@ -1,18 +1,24 @@
 .nav-container
+    height: 43rem
     width: 100%
     display: flex
     justify-content: start
     align-items: center
+    flex-direction: column
     padding: 0 1% 0 1%
+    position: relative
 
 .nav-back
+    height: 100%
     z-index: 1
-    position: relative
+    position: absolute
     width: 100%
-    opacity: .8
-    background-color: var(--text-white)
+    opacity: .9
+    background-color: white
 
 .nav-title
+    position: relative
+    align-self: start
     z-index: 2
     font-weight: 700
     font-size: 3rem
@@ -20,9 +26,21 @@
     color: #000000
 
 .nav-klub
+    position: relative
+    z-index: 2
     width: 60%
     justify-self: center
     display: flex
-           
+    &_1
+        display: flex
+        justify-content: center
+        align-items: center
+        flex-direction: column
+        h1
+            font-weight: 700
+            font-size: 10rem
+            line-height: 12.2rem
+            color: var(--black)
+
 
 

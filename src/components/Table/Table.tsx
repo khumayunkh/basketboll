@@ -24,12 +24,13 @@ function Table(){
                     <Tab eventKey="profile" title="IDUĆA">
                         <Navbar/>
                     </Tab>
-                    <Tab eventKey="contact" title="TABLICA" disabled>
+                    <Tab eventKey="contact" title="TABLICA">
                         <Navbar/>
                     </Tab>
                 </Tabs>
             </div>
             <div className="table-tablica">
+                <div className="table-tablica_back"></div>
                 <div className="table-klubs">
                     <h3 className="table-klubs_position">1.</h3>
                     <h3>ŠIBENIK 1983</h3>

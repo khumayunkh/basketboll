@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/header';
 import Information from './components/Information/Information';
 import Table from './components/Table/Table';
+import Sponsors from './components/Sponsors/Sponsors';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header/>
       <Information/>
       <Table/>
+      <Sponsors/>
     </div>
   );
 }

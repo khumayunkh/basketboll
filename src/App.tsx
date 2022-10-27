@@ -6,6 +6,7 @@ import Header from './components/Header/header';
 import Information from './components/Information/Information';
 import Table from './components/Table/Table';
 import Sponsors from './components/Sponsors/Sponsors';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Information/>
       <Table/>
       <Sponsors/>
+      <Footer/>
     </div>
   );
 }

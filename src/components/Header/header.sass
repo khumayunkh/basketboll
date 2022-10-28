@@ -33,18 +33,53 @@
         width: 73%
         color: var(--text-white)
         text-align: center
-        cursor: pointer 
+        cursor: pointer
+        @media( max-width:1550px )
+            width: 85%
+        @media( max-width:1100px)
+            width: 90%         
         &__logo
             display: flex
             justify-content: space-between
             align-items: center    
             width: 25%
+            @media( max-width:1550px )
+                width: 30%
+                justify-content: space-around
+                &__img
+                    transform: scale(.9)
+            @media( max-width:1100px)
+                width: 35%
+                padding-left: 14%
+                justify-content: end
+            @media( max-width:880px )
+                &__img
+                    transform: scale(.8)  
+                &__title
+                    margin-right: 20%
+                    margin-left: -20% 
+            @media( max-width: 760px)
+                &__img
+                    transform: scale(.7)
+                &__title
+                    margin-right: 20%
+                    margin-left: -30%
+            @media( max-width: 660px)
+                &__img
+                    margin-top: -30%
+                &__title
+                    display: none   
+            @media (max-width:550px)
+                width: 50%
+                &__img
+                   margin-left: 5%     
+            
             &__title
                 font-weight: 700
                 font-size: 4.6rem
                 line-height: 5.6rem
                 letter-spacing: -0.05em
-                padding-right: 5%
+                padding-right: 7%
                 border-right: .7rem solid var(--text-white)    
                 transition: all .2s
                 &:hover
@@ -59,6 +94,8 @@
             &:hover
                 color: var(--orange)   
                 border-bottom: .7rem solid var(--orange)
+            @media( max-width: 660px)
+                display: none    
         &__dropdown
             text-align: center
             font-weight: 700
@@ -80,6 +117,8 @@
             align-items: center
             &_triangle-left
                 @include style-triangle
+                @media( max-width: 550px)
+                    color: black !important
             &_name
                 font-family: 'Montserrat'
                 font-style: normal
@@ -87,17 +126,27 @@
                 font-size: 4.5rem
                 line-height: 5.5rem
                 color: var(--orange)
+                @media( max-width: 550px)
+                    color: black !important
         &_sub
             display: flex
             align-self: start
             justify-content: space-between
             width: 80%
+            @media( max-width:1220px)
+                width: 90%
+            @media( max-width:550px)
+                width: 100%
+                flex-direction: column    
             h3 
                 font-weight: 900
                 font-size: 5.8rem
                 line-height: 7.1rem
                 letter-spacing: -0.02em
-                color: #E6E5E5    
+                color: #E6E5E5  
+                
+                @media( max-width: 550px)
+                    color: black !important  
             &_btn
                 width: 15.7rem
                 height: 6.3rem

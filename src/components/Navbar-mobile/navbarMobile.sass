@@ -1,0 +1,24 @@
+.mobile_container
+    display: none
+    height: 8rem
+    @media( max-width: 660px)
+        display: flex
+        justify-content: center
+        align-items: center
+.mobile_nav
+    display: none
+    @media (max-width:660px)
+        width: 90%
+        display: flex
+        justify-content: space-around
+        &_name
+            align-items: center
+            font-weight: 700
+            font-size: 3.4rem
+            line-height: 4.1rem
+            letter-spacing: -0.05em     
+            transition: all .2s
+            &:hover
+                color: var(--orange)   
+                border-bottom: .7rem solid var(--orange)
+           

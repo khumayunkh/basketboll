@@ -65,15 +65,21 @@
                     margin-right: 20%
                     margin-left: -30%
             @media( max-width: 660px)
+                width: 50%
                 &__img
-                    margin-top: -30%
+                    margin-right: 25rem
+                    margin-top: -20%
                 &__title
                     display: none   
             @media (max-width:550px)
                 width: 50%
+                padding: .1%
+                display: flex
+                justify-content: start
+                align-items: start
                 &__img
-                   margin-left: 5%     
-            
+                    margin-left: -25%
+
             &__title
                 font-weight: 700
                 font-size: 4.6rem
@@ -110,7 +116,11 @@
         flex-direction: column
         align-items: center
         justify-content: center
-        width: 70%
+        width: 75%
+        @media ( max-width: 900px )
+            width: 85%
+        @media ( max-width: 900px )
+            width: 90%    
         &_title
             display: flex
             align-self: start

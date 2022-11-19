@@ -4,12 +4,12 @@ import background from './../img/background.png'
 import {Nav} from 'react-bootstrap';
 import {NavDropdown} from 'react-bootstrap';
 import logo from './../img/logo.png'
-
+    
 function Header(){
     return(
         <>
         <div className="header_container">
-            {/* <img className="header_backround" src={background}/> */}
+            <img className="header_backround" src={background}/>
             <div className="header_menu">
                 <div className="header_menu__navbar">
                     <div className="header_menu__navbar__logo">
@@ -39,6 +39,14 @@ function Header(){
                     <div className="header_menu_info_sub">
                         <h3>VELIKA POBJEDA U SPLITU</h3>
                         <button className="header_menu_info_sub_btn">POGLEDAJ</button>
+                    </div>
+                </div>
+                <div className="header_menu_arrow">
+                    <div className="header_menu_arrow_1">
+                        <h1 className="header_menu_arrow_1_icon">&#8592;</h1>
+                    </div>
+                    <div className="header_menu_arrow_2">
+                    <h1 className="header_menu_arrow_2_icon">&#8594;</h1>
                     </div>
                 </div>
             </div>    

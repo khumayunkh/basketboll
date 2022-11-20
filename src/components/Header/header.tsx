@@ -9,7 +9,7 @@ function Header(){
     return(
         <>
         <div className="header_container">
-            <img className="header_backround" src={background}/>
+            {/* <img className="header_backround" src={background}/> */}
             <div className="header_menu">
                 <div className="header_menu__navbar">
                     <div className="header_menu__navbar__logo">

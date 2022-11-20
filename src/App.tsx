@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header/header';
@@ -8,14 +7,22 @@ import Table from './components/Table/Table';
 import Sponsors from './components/Sponsors/Sponsors';
 import Footer from './components/Footer/Footer';
 import NavbarMobile from './components/Navbar-mobile/NavbarMobile';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <NavbarMobile/>
-      <Information/>
-      <Table/>
+      <Routes>
+        <Route 
+          path='/'
+          element={<>
+            <Information/>
+            <Table/>
+          </>}
+        />
+      </Routes>
       <Sponsors/>
       <Footer/>
     </div>
